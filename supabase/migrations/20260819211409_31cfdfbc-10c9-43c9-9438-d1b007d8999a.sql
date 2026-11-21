@@ -1,0 +1,2 @@
+-- Apply the migration manually since we can't run 'supabase migration up' directly in this environment easily without a CLI tool being confirmed, but we have access to the SQL tool.
+-- Actually, the project uses Lovable Cloud, so we should use supabase--migration.

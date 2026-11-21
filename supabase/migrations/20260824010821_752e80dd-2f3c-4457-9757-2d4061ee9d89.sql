@@ -1,0 +1,2 @@
+REVOKE EXECUTE ON FUNCTION public.create_barbershop_onboarding(text,text,text,uuid,text,text,text,text,text,text,jsonb) FROM PUBLIC, anon;
+GRANT EXECUTE ON FUNCTION public.create_barbershop_onboarding(text,text,text,uuid,text,text,text,text,text,text,jsonb) TO authenticated, service_role;

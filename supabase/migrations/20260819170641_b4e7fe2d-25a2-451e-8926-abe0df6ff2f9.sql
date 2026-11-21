@@ -1,0 +1,1 @@
+ALTER FUNCTION public.check_appointment_overlap() SET search_path = public;
